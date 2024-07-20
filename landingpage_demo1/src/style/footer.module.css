@@ -1,5 +1,27 @@
 .footerbody{
-    height: 50vh;
+    
+    height: 70vh;
     width: 100%;
     background-color: #1E1E1E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textarea{
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    color: #D2D2D2;
+    margin: 0;
+}
+h3{
+    background: linear-gradient(120deg,#FFFFFF,#999999);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

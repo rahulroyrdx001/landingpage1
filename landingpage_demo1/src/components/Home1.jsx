@@ -30,7 +30,7 @@ export default function Home1() {
           </p>
           <p>and Cheaper Access</p>
         </div>
-        <div style={{ position: "relative", top: "-60%" }}>
+        <div style={{ position: "relative", top: "-60%",zIndex:"2" }}>
           <button className={style.btn}>
             Comming soon
             <FaArrowCircleRight style={{ padding: "3px" }} />

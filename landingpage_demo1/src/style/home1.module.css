@@ -28,15 +28,27 @@
     margin: 30px;
     display: flex;
     position: relative;
-    top: -70%;
+    top: -75%;
     flex-direction: column;
     justify-content: center;
     align-items: center; 
     background-color: transparent; 
     z-index: 5;  
 }
+h1{
+    font-size: 56px;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
 h2{
     margin: 0;
+    font-size: 56px;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
     background: linear-gradient(45deg,#FFFFFF,#6B61FF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

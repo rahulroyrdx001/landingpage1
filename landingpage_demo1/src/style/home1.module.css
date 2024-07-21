@@ -1,5 +1,5 @@
 .home1body{
-    height: 170vh;
+    height: 200vh;
     width: 100%;
     background-color: #1F1F20;
     display: flex;
@@ -20,14 +20,20 @@
     
 }
 .bgimg{
-    z-index: 2;   
+    position: relative;
+    top:23%;
+    z-index: 2;
 }
 .heading{
     margin: 30px;
     display: flex;
+    position: relative;
+    top: -70%;
     flex-direction: column;
     justify-content: center;
-    align-items: center;    
+    align-items: center; 
+    background-color: transparent; 
+    z-index: 5;  
 }
 h2{
     margin: 0;
@@ -40,12 +46,24 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    top: -65%;
 }
 p{
     color: #D2D2D2
 }
 .btn{
-    
+   background-color: #6B61FF; 
+   color: #D2D2D2 ;
+   font-size: 3vh;
+   height: 7vh;
+   width: 250px;
+   border-radius: 24px;
+   border : none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
 }
 
 .databoxs{
@@ -54,6 +72,8 @@ p{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    position: relative;
+    top: -30%;
     z-index: 2;
 }
 
@@ -62,6 +82,7 @@ p{
     width: 40%;
     background-color: #FFFFFF;
     border-radius: 24px;
+    overflow: hidden;
 }
 .starelement{
     width: 100%;
@@ -69,6 +90,17 @@ p{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+}
+.element2{
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    position: relative;
+    left: 35%;
+    top: 15%;
+    background-color: #6B61FF;
+    filter: blur(70px);
     
 }
 

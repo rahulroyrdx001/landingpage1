@@ -1,9 +1,23 @@
 import style from "../style/home1.module.css";
-import bgimg from "../assets/bgimg.png";
+import { FaArrowCircleRight } from "react-icons/fa";
+import bgimgg from "../assets/bgimgg.png";
+
 export default function Home1() {
   return (
     <>
       <div className={style.home1body}>
+        <div className={style.bgimg}>
+          <img
+            src={bgimgg}
+            style={{
+              width: "100%",
+              height: "100%",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
+            alt="Background image"
+          />
+        </div>
         <div className={style.element1}></div>
         <div className={style.heading}>
           <h2>EMPOWERING THE DIGITAL ERA:</h2>
@@ -16,16 +30,16 @@ export default function Home1() {
           </p>
           <p>and Cheaper Access</p>
         </div>
-        <div className={style.btn}>
-          <button>Comming soon</button>
-        </div>
-        <div className={style.bgimg}>
-          <img src={bgimg} alt="Background image" />
+        <div style={{ position: "relative", top: "-60%" }}>
+          <button className={style.btn}>
+            Comming soon
+            <FaArrowCircleRight style={{ padding: "3px" }} />
+          </button>
         </div>
         <div className={style.databoxs}>
           <div className={style.box}>
             <div className={style.starelement}>
-              <h2>No. of Node Operators</h2>
+              <h1>No. of Node Operators</h1>
               <svg
                 width="47"
                 height="48"
@@ -74,13 +88,14 @@ export default function Home1() {
               </svg>
             </div>
             <h1>2000</h1>
+            <div className={style.element2}></div>
           </div>
           <div className={style.box}>
             <div className={style.starelement}>
-              <h2>
+              <h1>
                 Data Transferred in TB{" "}
                 <span style={{ fontSize: "15px" }}>(last 30 days)</span>
-              </h2>
+              </h1>
               <svg
                 width="47"
                 height="48"
@@ -129,6 +144,7 @@ export default function Home1() {
               </svg>
             </div>
             <h1>12,000</h1>
+            <div className={style.element2}></div>
           </div>
         </div>
       </div>

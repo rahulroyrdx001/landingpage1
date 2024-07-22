@@ -16,6 +16,11 @@
 }
 .headline h1{
     margin: 0;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 36px;
+    font-style: normal;
     background: linear-gradient(60deg,#FFFFFF,#999999);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -28,6 +33,11 @@
 }
 .lowerheadline p{
     color: #D2D2D2;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
 }
 
 .databox2{
@@ -52,9 +62,24 @@
 
 .box1 h1{
     color: #EDF0FF;
+    position: relative;
+    left: 5%;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 32px;
+    font-style: normal;
 }
-.box1 p{
+.databox2 .box1 p{
+
     color: #EDF0FF;
+    position: relative;
+    left: 5%;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
 }
 .btn1{
     width: 30%;
@@ -75,6 +100,26 @@
     border-radius: 30px;
     overflow: hidden;
     transition: transform 0.2s;
+}
+.box2 h1{
+    position: relative;
+    left: 5%;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 32px;
+    font-style: normal;
+}
+.databox2 .box2 p{
+
+    color: #1E1E1E;
+    position: relative;
+    left: 5%;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
 }
 .box2:hover{
     transform: scale(1.12);
@@ -104,7 +149,26 @@
 .box3:hover{
     transform: scale(1.15);
 }
+.box3 h1{
+    position: relative;
+    left: 5%;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 32px;
+    font-style: normal;
+}
+.databox2 .box3 p{
 
+    color: #1E1E1E;
+    position: relative;
+    left: 5%;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+}
 
 .btn3{
     width: 25%;
@@ -117,7 +181,4 @@
     left: 70%;
     top: 15%;
     rotate: -20deg;
-}
-.databox2 p{
-    color: #2A2A2B;
 }

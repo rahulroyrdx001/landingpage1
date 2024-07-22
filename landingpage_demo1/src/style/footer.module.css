@@ -19,8 +19,18 @@
 p{
     color: #D2D2D2;
     margin: 0;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
 }
 h3{
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 32px;
+    font-style: normal;
     background: linear-gradient(120deg,#FFFFFF,#999999);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
